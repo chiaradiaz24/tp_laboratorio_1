@@ -1,0 +1,126 @@
+/*
+ ============================================================================
+ Name        : 2sabado.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+#include <stdio.h>
+#include <stdlib.h>
+
+int calcularPromedioPositivos (int);
+int sumarNegativos(int);
+int contarCeros(int);
+int main(void) {
+
+	 setbuf(stdout , NULL);
+
+	int promedioPositivo;
+	int vector[10];
+	int i;
+	int contadorCeros;
+	int sumaNegativos;
+
+	for(i=0 , i<10, i++)
+	{
+		printf("Ingrese numero :");
+		scanf("%d", &vector[i])
+	}
+
+
+
+	promedioPositivo= calcularPromedio(vector[i]);
+	contadorCeros = contarCeros(vector[i]);
+	sumaNegativos= sumarNegativos(vector[i]);
+
+	printf("El promedio de los positivos es %2.f")
+
+
+
+
+	 printf("El numero ingresado es %d" , promedioPositivo);
+
+
+
+	return EXIT_SUCCESS;
+}
+
+int calcularPromedioPositivo (int i)
+{
+	int i;
+	int retorno;
+	int suma;
+	int contador;
+	int acumulador;
+
+
+	contador=0;
+	acumulador=0;
+
+
+	if(numero>0)
+		{
+			contador++;
+			acumulador+= numero;
+			promedio=(float)acumulador/contador;
+
+
+			retorno= promedio;
+
+
+		}else{
+			retorno="No se ingreso ningun numero positivo"
+		}
+
+
+
+
+	return retorno;
+
+
+
+	}
+
+int contarCeros(int numero1)
+{
+	int retorno;
+
+	if(numero1<0)
+			{
+				contador++;
+
+
+
+				retorno= contador;
+
+
+			}
+
+	return retorno;
+	}
+
+int sumarNegativos(int numero2)
+{
+	int numero2;
+	int suma;
+	int i;
+
+	if(numero2<0)
+	{
+		for(i=0, i<numero2 , i++)
+		{
+			suma+=i;
+		}
+
+		}
+	return suma;
+	}
+
+}

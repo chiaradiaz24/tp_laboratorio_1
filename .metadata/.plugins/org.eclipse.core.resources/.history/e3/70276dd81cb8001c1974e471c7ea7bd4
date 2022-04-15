@@ -1,0 +1,61 @@
+/*
+ ============================================================================
+ Name        : 2sabado.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int devolverNumerosEntero (int);
+int main(void) {
+
+	 setbuf(stdout , NULL);
+
+	int numeroEntero;
+
+
+
+
+
+	numeroEntero=devolverNumerosEntero(-15);
+	 printf("El numero ingresado es %d" , numeroEntero);
+
+
+
+	return EXIT_SUCCESS;
+}
+
+int devolverNumerosEntero (int numero1)
+{
+	int retorno;
+
+	if(numero1>0)
+		{
+			retorno=1;
+
+
+		}else
+		{
+			if(numero1<0)
+			{
+				retorno=-1;
+
+			}
+			else
+			{
+				retorno=0;
+			}
+		}
+
+
+
+	return retorno;
+
+
+
+	}

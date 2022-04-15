@@ -1,0 +1,15 @@
+10:43:14 **** Incremental Build of configuration Debug for project ejercicio2.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio2.1.o" "..\\src\\ejercicio2.1.c" 
+..\src\ejercicio2.1.c:13:1: warning: parameter names (without types) in function declaration
+   13 | float calcularPromedio(nro1 , nro2);
+      | ^~~~~
+..\src\ejercicio2.1.c: In function 'calcularPromedio':
+..\src\ejercicio2.1.c:27:7: warning: type of 'nro1' defaults to 'int' [-Wimplicit-int]
+   27 | float calcularPromedio(nro1 , nro2)
+      |       ^~~~~~~~~~~~~~~~
+..\src\ejercicio2.1.c:27:7: warning: type of 'nro2' defaults to 'int' [-Wimplicit-int]
+gcc -o ejercicio2.1.exe "src\\ejercicio2.1.o" 
+
+10:43:15 Build Finished. 0 errors, 3 warnings. (took 1s.587ms)
+

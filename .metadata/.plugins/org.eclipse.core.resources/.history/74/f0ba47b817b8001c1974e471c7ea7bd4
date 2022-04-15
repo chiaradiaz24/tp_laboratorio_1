@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : 1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+float calcularPromedio(nro1 , nro2);
+
+int main(void) {
+
+
+	float promedio;
+
+	promedio=calcularPromedio(5,9);
+
+	printf("El promedio es: %.2f", promedio);
+
+	return 0;
+
+}
+float calcularPromedio(nro1 , nro2)
+{
+	float promedio;
+	int suma;
+	 suma= nro1 + nro2;
+	 promedio =(float) suma/2;
+
+
+	return promedio;
+	}
