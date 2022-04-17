@@ -1,0 +1,37 @@
+/*
+ * archivo.c
+ *
+ *  Created on: 16 abr. 2022
+ *      Author: Chiara
+ */
+
+#include "archivo.h"
+
+
+float calcularCostoDebito(int valor, float valor2)
+{
+	float resultado;
+
+
+
+	resultado = valor * valor2;
+
+	return resultado;
+}
+float calcularTarjetaCredito(int valor , float valor2)
+{
+	float resultado;
+
+	resultado = valor * valor2;
+
+	return resultado;
+	}
+double calcularBitcoin(int valor, double valor2)
+{
+	double resultado;
+
+
+	resultado = valor/valor2;
+
+	return resultado;
+	}

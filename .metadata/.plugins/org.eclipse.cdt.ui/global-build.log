@@ -1,225 +1,145 @@
-20:25:11 **** Rebuild of configuration Release for project ejercicio2.2sabado ****
+19:54:51 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
 Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\ejercicio2.2sabado.o" "..\\src\\ejercicio2.2sabado.c" 
-..\src\ejercicio2.2sabado.c: In function 'main':
-..\src\ejercicio2.2sabado.c:21:5: warning: 'main' is normally a non-static function [-Wmain]
-   21 | int main(void) {
-      |     ^~~~
-..\src\ejercicio2.2sabado.c: In function 'main':
-..\src\ejercicio2.2sabado.c:31:10: warning: right-hand operand of comma expression has no effect [-Wunused-value]
-   31 |  for(i=0 , i<10, i++)
-      |          ^
-..\src\ejercicio2.2sabado.c:31:21: error: expected ';' before ')' token
-   31 |  for(i=0 , i<10, i++)
-      |                     ^
-      |                     ;
-..\src\ejercicio2.2sabado.c:31:21: error: expected expression before ')' token
-..\src\ejercicio2.2sabado.c:34:26: error: expected ';' before '}' token
-   34 |   scanf("%d", &vector[i])
-      |                          ^
-      |                          ;
-   35 |  }
-      |  ~                        
-..\src\ejercicio2.2sabado.c:39:20: warning: implicit declaration of function 'calcularPromedio'; did you mean 'calcularPromedioPositivos'? [-Wimplicit-function-declaration]
-   39 |  promedioPositivo= calcularPromedio(vector[i]);
-      |                    ^~~~~~~~~~~~~~~~
-      |                    calcularPromedioPositivos
-..\src\ejercicio2.2sabado.c:43:45: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   43 |  printf("El promedio de los positivos es %2.f")
-      |                                          ~~~^
-      |                                             |
-      |                                             double
-..\src\ejercicio2.2sabado.c:43:48: error: expected ';' before 'printf'
-   43 |  printf("El promedio de los positivos es %2.f")
-      |                                                ^
-      |                                                ;
-......
-   48 |   printf("El numero ingresado es %d" , promedioPositivo);
-      |   ~~~~~~                                        
-..\src\ejercicio2.2sabado.c:29:6: warning: variable 'sumaNegativos' set but not used [-Wunused-but-set-variable]
-   29 |  int sumaNegativos;
-      |      ^~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:28:6: warning: variable 'contadorCeros' set but not used [-Wunused-but-set-variable]
-   28 |  int contadorCeros;
-      |      ^~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:25:6: warning: variable 'promedioPositivo' set but not used [-Wunused-but-set-variable]
-   25 |  int promedioPositivo;
-      |      ^~~~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c: In function 'calcularPromedioPositivo':
-..\src\ejercicio2.2sabado.c:57:6: error: 'i' redeclared as different kind of symbol
-   57 |  int i;
-      |      ^
-..\src\ejercicio2.2sabado.c:55:35: note: previous definition of 'i' was here
-   55 | int calcularPromedioPositivo (int i)
-      |                               ~~~~^
-..\src\ejercicio2.2sabado.c:68:5: error: 'numero' undeclared (first use in this function)
-   68 |  if(numero>0)
-      |     ^~~~~~
-..\src\ejercicio2.2sabado.c:68:5: note: each undeclared identifier is reported only once for each function it appears in
-..\src\ejercicio2.2sabado.c:72:4: error: 'promedio' undeclared (first use in this function)
-   72 |    promedio=(float)acumulador/contador;
-      |    ^~~~~~~~
-..\src\ejercicio2.2sabado.c:79:11: warning: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
-   79 |    retorno="No se ingreso ningun numero positivo";
-      |           ^
-..\src\ejercicio2.2sabado.c:59:6: warning: unused variable 'suma' [-Wunused-variable]
-   59 |  int suma;
-      |      ^~~~
-..\src\ejercicio2.2sabado.c:57:6: warning: unused variable 'i' [-Wunused-variable]
-   57 |  int i;
-      |      ^
-..\src\ejercicio2.2sabado.c: In function 'main':
-..\src\ejercicio2.2sabado.c:91:5: error: static declaration of 'contarCeros' follows non-static declaration
-   91 | int contarCeros(int numero1)
-      |     ^~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:20:5: note: previous declaration of 'contarCeros' was here
-   20 | int contarCeros(int);
-      |     ^~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:110:5: error: static declaration of 'sumarNegativos' follows non-static declaration
-  110 | int sumarNegativos(int numero2)
-      |     ^~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:19:5: note: previous declaration of 'sumarNegativos' was here
-   19 | int sumarNegativos(int);
-      |     ^~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c: In function 'sumarNegativos':
-..\src\ejercicio2.2sabado.c:112:6: error: 'numero2' redeclared as different kind of symbol
-  112 |  int numero2;
-      |      ^~~~~~~
-..\src\ejercicio2.2sabado.c:110:24: note: previous definition of 'numero2' was here
-  110 | int sumarNegativos(int numero2)
-      |                    ~~~~^~~~~~~
-..\src\ejercicio2.2sabado.c:118:10: warning: right-hand operand of comma expression has no effect [-Wunused-value]
-  118 |   for(i=0, i<numero2 , i++)
-      |          ^
-..\src\ejercicio2.2sabado.c:118:27: error: expected ';' before ')' token
-  118 |   for(i=0, i<numero2 , i++)
-      |                           ^
-      |                           ;
-..\src\ejercicio2.2sabado.c:118:27: error: expected expression before ')' token
-At top level:
-..\src\ejercicio2.2sabado.c:110:5: warning: 'sumarNegativos' defined but not used [-Wunused-function]
-  110 | int sumarNegativos(int numero2)
-      |     ^~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:91:5: warning: 'contarCeros' defined but not used [-Wunused-function]
-   91 | int contarCeros(int numero1)
-      |     ^~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:55:5: warning: 'calcularPromedioPositivo' defined but not used [-Wunused-function]
-   55 | int calcularPromedioPositivo (int i)
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:21:5: warning: 'main' defined but not used [-Wunused-function]
-   21 | int main(void) {
-      |     ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
 
-20:25:13 Build Failed. 12 errors, 15 warnings. (took 2s.46ms)
+19:54:53 Build Finished. 0 errors, 0 warnings. (took 2s.4ms)
 
-20:25:13 **** Rebuild of configuration Debug for project ejercicio2.2sabado ****
+19:54:53 **** Incremental Build of configuration Release for project tps_laboratorio_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio2.2sabado.o" "..\\src\\ejercicio2.2sabado.c" 
-..\src\ejercicio2.2sabado.c: In function 'main':
-..\src\ejercicio2.2sabado.c:21:5: warning: 'main' is normally a non-static function [-Wmain]
-   21 | int main(void) {
-      |     ^~~~
-..\src\ejercicio2.2sabado.c: In function 'main':
-..\src\ejercicio2.2sabado.c:31:10: warning: right-hand operand of comma expression has no effect [-Wunused-value]
-   31 |  for(i=0 , i<10, i++)
-      |          ^
-..\src\ejercicio2.2sabado.c:31:21: error: expected ';' before ')' token
-   31 |  for(i=0 , i<10, i++)
-      |                     ^
-      |                     ;
-..\src\ejercicio2.2sabado.c:31:21: error: expected expression before ')' token
-..\src\ejercicio2.2sabado.c:34:26: error: expected ';' before '}' token
-   34 |   scanf("%d", &vector[i])
-      |                          ^
-      |                          ;
-   35 |  }
-      |  ~                        
-..\src\ejercicio2.2sabado.c:39:20: warning: implicit declaration of function 'calcularPromedio'; did you mean 'calcularPromedioPositivos'? [-Wimplicit-function-declaration]
-   39 |  promedioPositivo= calcularPromedio(vector[i]);
-      |                    ^~~~~~~~~~~~~~~~
-      |                    calcularPromedioPositivos
-..\src\ejercicio2.2sabado.c:43:45: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   43 |  printf("El promedio de los positivos es %2.f")
-      |                                          ~~~^
-      |                                             |
-      |                                             double
-..\src\ejercicio2.2sabado.c:43:48: error: expected ';' before 'printf'
-   43 |  printf("El promedio de los positivos es %2.f")
-      |                                                ^
-      |                                                ;
-......
-   48 |   printf("El numero ingresado es %d" , promedioPositivo);
-      |   ~~~~~~                                        
-..\src\ejercicio2.2sabado.c:29:6: warning: variable 'sumaNegativos' set but not used [-Wunused-but-set-variable]
-   29 |  int sumaNegativos;
-      |      ^~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:28:6: warning: variable 'contadorCeros' set but not used [-Wunused-but-set-variable]
-   28 |  int contadorCeros;
-      |      ^~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:25:6: warning: variable 'promedioPositivo' set but not used [-Wunused-but-set-variable]
-   25 |  int promedioPositivo;
-      |      ^~~~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c: In function 'calcularPromedioPositivo':
-..\src\ejercicio2.2sabado.c:57:6: error: 'i' redeclared as different kind of symbol
-   57 |  int i;
-      |      ^
-..\src\ejercicio2.2sabado.c:55:35: note: previous definition of 'i' was here
-   55 | int calcularPromedioPositivo (int i)
-      |                               ~~~~^
-..\src\ejercicio2.2sabado.c:68:5: error: 'numero' undeclared (first use in this function)
-   68 |  if(numero>0)
-      |     ^~~~~~
-..\src\ejercicio2.2sabado.c:68:5: note: each undeclared identifier is reported only once for each function it appears in
-..\src\ejercicio2.2sabado.c:72:4: error: 'promedio' undeclared (first use in this function)
-   72 |    promedio=(float)acumulador/contador;
-      |    ^~~~~~~~
-..\src\ejercicio2.2sabado.c:79:11: warning: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
-   79 |    retorno="No se ingreso ningun numero positivo";
-      |           ^
-..\src\ejercicio2.2sabado.c:59:6: warning: unused variable 'suma' [-Wunused-variable]
-   59 |  int suma;
-      |      ^~~~
-..\src\ejercicio2.2sabado.c:57:6: warning: unused variable 'i' [-Wunused-variable]
-   57 |  int i;
-      |      ^
-..\src\ejercicio2.2sabado.c: In function 'main':
-..\src\ejercicio2.2sabado.c:91:5: error: static declaration of 'contarCeros' follows non-static declaration
-   91 | int contarCeros(int numero1)
-      |     ^~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:20:5: note: previous declaration of 'contarCeros' was here
-   20 | int contarCeros(int);
-      |     ^~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:110:5: error: static declaration of 'sumarNegativos' follows non-static declaration
-  110 | int sumarNegativos(int numero2)
-      |     ^~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:19:5: note: previous declaration of 'sumarNegativos' was here
-   19 | int sumarNegativos(int);
-      |     ^~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c: In function 'sumarNegativos':
-..\src\ejercicio2.2sabado.c:112:6: error: 'numero2' redeclared as different kind of symbol
-  112 |  int numero2;
-      |      ^~~~~~~
-..\src\ejercicio2.2sabado.c:110:24: note: previous definition of 'numero2' was here
-  110 | int sumarNegativos(int numero2)
-      |                    ~~~~^~~~~~~
-..\src\ejercicio2.2sabado.c:118:10: warning: right-hand operand of comma expression has no effect [-Wunused-value]
-  118 |   for(i=0, i<numero2 , i++)
-      |          ^
-..\src\ejercicio2.2sabado.c:118:27: error: expected ';' before ')' token
-  118 |   for(i=0, i<numero2 , i++)
-      |                           ^
-      |                           ;
-..\src\ejercicio2.2sabado.c:118:27: error: expected expression before ')' token
-At top level:
-..\src\ejercicio2.2sabado.c:110:5: warning: 'sumarNegativos' defined but not used [-Wunused-function]
-  110 | int sumarNegativos(int numero2)
-      |     ^~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:91:5: warning: 'contarCeros' defined but not used [-Wunused-function]
-   91 | int contarCeros(int numero1)
-      |     ^~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:55:5: warning: 'calcularPromedioPositivo' defined but not used [-Wunused-function]
-   55 | int calcularPromedioPositivo (int i)
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio2.2sabado.c:21:5: warning: 'main' defined but not used [-Wunused-function]
-   21 | int main(void) {
-      |     ^~~~
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+..\src\tps_laboratorio_1.c: In function 'main':
+..\src\tps_laboratorio_1.c:109:4: warning: 'precioDebitoLatam' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  109 |    printf("el costo con debito es: %.2f\n", precioDebitoLatam);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tps_laboratorio_1.c:107:4: warning: 'precioDebitoAerolineas' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  107 |    printf("el costo con debito es: %.2f\n", precioDebitoAerolineas);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+19:57:52 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+20:06:06 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+..\src\tps_laboratorio_1.c: In function 'main':
+..\src\tps_laboratorio_1.c:100:26: warning: implicit declaration of function 'calcularTarjetaCredito' [-Wimplicit-function-declaration]
+  100 |     precioCreditoLatam = calcularTarjetaCredito(precioLatam, interes);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file tps_laboratorio_1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:07:04 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+20:20:08 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+20:23:35 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+20:33:18 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+..\src\tps_laboratorio_1.c: In function 'main':
+..\src\tps_laboratorio_1.c:88:13: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   88 |     scanf("%f", &precioLatam);
+      |            ~^   ~~~~~~~~~~~~
+      |             |   |
+      |             |   int *
+      |             float *
+      |            %d
+..\src\tps_laboratorio_1.c:93:13: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   93 |     scanf("%f", &precioAerolineas);
+      |            ~^   ~~~~~~~~~~~~~~~~~
+      |             |   |
+      |             |   int *
+      |             float *
+      |            %d
+..\src\tps_laboratorio_1.c:123:32: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  123 |    printf("Precio aerolineas: %f\n",precioAerolineas);
+      |                               ~^    ~~~~~~~~~~~~~~~~
+      |                                |    |
+      |                                |    int
+      |                                double
+      |                               %d
+..\src\tps_laboratorio_1.c:128:27: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  128 |    printf("Precio Latam: %f\n", precioLatam);
+      |                          ~^     ~~~~~~~~~~~
+      |                           |     |
+      |                           |     int
+      |                           double
+      |                          %d
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+20:34:37 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+20:37:09 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+20:44:37 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+21:19:01 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+21:53:00 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+21:57:47 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+21:58:58 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+22:02:48 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+22:05:26 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\archivo.o" "..\\src\\archivo.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+22:06:40 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1
+22:08:44 **** Incremental Build of configuration Debug for project tps_laboratorio_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tps_laboratorio_1.o" "..\\src\\tps_laboratorio_1.c" 
+gcc -o tps_laboratorio_1.exe "src\\archivo.o" "src\\tps_laboratorio_1.o" 
+Info: Nothing to build for tps_laboratorio_1

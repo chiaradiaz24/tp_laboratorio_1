@@ -1,0 +1,24 @@
+/*
+ * archivo.c
+ *
+ *  Created on: 16 abr. 2022
+ *      Author: Chiara
+ */
+
+#include "archivo.h"
+
+
+float calcularCostoDebito (float precio)
+{
+	float resultado;
+	float precioVarios;
+
+
+	if(precioVarios>0){
+		resultado = precio * 0.90;
+
+	}
+
+	return resultado;
+}
+

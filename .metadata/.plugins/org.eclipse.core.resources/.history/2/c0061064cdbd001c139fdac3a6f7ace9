@@ -1,0 +1,29 @@
+/*
+ * archivo.c
+ *
+ *  Created on: 16 abr. 2022
+ *      Author: Chiara
+ */
+
+#include "archivo.h"
+
+
+int calcularCostoDebito (int precioLatam, int precioAerolineas)
+{
+	int resultado;
+	int precio;
+
+	if(precio== precioLatam){
+		resultado = precioLatam * 0.90;
+	}
+	else{
+		if(precio== precioAerolineas)
+		{
+		resultado = precioAerolineas * 0.90;
+	}
+
+	}
+
+	return resultado;
+}
+

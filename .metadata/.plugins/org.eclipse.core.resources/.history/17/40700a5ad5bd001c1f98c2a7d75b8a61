@@ -1,0 +1,19 @@
+/*
+ * archivo.c
+ *
+ *  Created on: 16 abr. 2022
+ *      Author: Chiara
+ */
+
+#include "archivo.h"
+
+
+float calcularCostoDebito (int valor)
+{
+	float resultado;
+
+	resultado = valor *0.90;
+
+	return resultado;
+}
+

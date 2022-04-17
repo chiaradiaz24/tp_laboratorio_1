@@ -1,0 +1,98 @@
+/*
+ ============================================================================
+ Name        : tps_laboratorio_1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	setbuf(stdout,NULL);
+
+	int opcion;
+	int ingresarKilometros;
+	char opcionDos;
+	int precioLatam;
+	int precioAerolineas;
+
+
+
+
+	do
+	{
+		printf("1. ingresar kilometros:\n");
+		printf("2. Ingresar Precio de Vuelos:\n");
+
+		printf("3. Calcular todos los costos:\n");
+		printf("4. Informar Resultados\n");
+		printf("5. Carga forzada de datos \n");
+		printf("6. Salir \n");
+		printf("Ingrese una opcion:\n");
+		scanf("%d", &opcion);
+
+
+
+
+		switch(opcion)
+		{
+		case 1:
+			do{
+			printf("ingresar km x:");
+			scanf("%d", &ingresarKilometros);
+
+			if(ingresarKilometros > 0)
+			{
+
+			}else{
+				printf("Error. Ingrese un numero valido mayor que cero");
+			}
+			}while(ingresarKilometros<0);
+			break;
+		case 2:
+			do{
+			system("cls");
+			printf(" z. \n");
+			printf(" y. \n");
+			printf(" x. salir\n");
+			printf(" Ingrese una opcion: ");
+			scanf("%c", &opcionDos);
+			switch(opcionDos)
+			{
+				case 'z':
+				printf("Precio vuelo Latam:");
+				scanf("%d", &precioLatam);
+
+				case 'y':
+				printf("Precio vuelo Aerolineas");
+				scanf("%d", &precioAerolineas);
+			}
+			}while(opcionDos!='x');
+
+
+
+			break;
+		case 3:
+			printf("s");
+			break;
+		case 4:
+			printf("s");
+			break;
+		case 5:
+			printf("gracias por usar el promgrama");
+			break;
+		case 6:
+			printf("gracias por usar el promgrama");
+			break;
+		}
+
+	}while(opcion!=5);
+
+
+	return EXIT_SUCCESS;
+}
